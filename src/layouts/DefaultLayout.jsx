@@ -15,8 +15,8 @@ var DefaultLayout = React.createClass({
   },
   getDefaultProps() {
     return {
-      title: 'React.js Starter Kit',
-      description: 'A skeleton for an isomorphic web application (SPA) built with React.js and Flux'
+      title: 'Bus Stop Locator',
+      description: 'Find nearby bus stops by location'
     };
   },
   render() {
@@ -28,8 +28,8 @@ var DefaultLayout = React.createClass({
     ) : (
       <div className="jumbotron">
         <div className="container text-center">
-          <h1>React</h1>
-          <p>Complex web apps made easy</p>
+          <h1>Bus Stop Locator</h1>
+          <p>Find nearby bus stops</p>
         </div>
       </div>
     );
@@ -42,9 +42,7 @@ var DefaultLayout = React.createClass({
         <div className="navbar-footer">
           <div className="container">
             <p className="text-muted">
-              <span>© KriaSoft</span>
-              <span><Link to="/">Home</Link></span>
-              <span><Link to="/privacy">Privacy</Link></span>
+              <span>© Abdul Thajudeen</span>
             </p>
           </div>
         </div>

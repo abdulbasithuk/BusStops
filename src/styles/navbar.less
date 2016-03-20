@@ -3,27 +3,20 @@
 // =============================================================================
 
 @import "../../node_modules/bootstrap/less/navbar.less";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
 body {
   padding: @navbar-height 0;
   overflow-y: scroll;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar-top {
+  background-color: darken(@body-bg, 2%); border: none;
+  .cd-profile-image { border-radius: 50%; width: 50px; height: 50px;}
   &:extend(.navbar);
   &:extend(.navbar-inverse);
   &:extend(.navbar-fixed-top);
-}
-
-.navbar-brand {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  color: #00d8ff !important;
-  font-size: 24px;
-
-  img {
-    margin-right: 10px;
-  }
 }
 
 //

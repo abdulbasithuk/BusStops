@@ -12,10 +12,7 @@ var Navbar = React.createClass({
     return (
       <div className="navbar-top">
         <div className="container">
-          <Link className="navbar-brand row" to="/">
-            <img src="/images/logo-small.png" width="38" height="38" alt="React" />
-            <span>React.js Starter Kit</span>
-          </Link>
+          <img className="cd-profile-image" src="/images/profile_image.jpg" alt="profile" />
         </div>
       </div>
     );
