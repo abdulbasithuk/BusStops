@@ -6,17 +6,20 @@
 
 var React = require('react');
 var DefaultLayout = require('../layouts/DefaultLayout.jsx');
+var Searchbox = require('../components/Searchbox.jsx');
 
 var HomePage = React.createClass({
   getDefaultProps() {
     return {
-      title: 'React.js Starter Kit',
+      title: 'Bus Stop Locator',
       layout: DefaultLayout
     };
   },
   render() {
     return (
-    <h1> Bus stop locator</h1>
+      <div>
+        <Searchbox />
+      </div>
     );
   }
 });
