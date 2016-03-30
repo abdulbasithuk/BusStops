@@ -6,7 +6,9 @@
 
 var React = require('react');
 var DefaultLayout = require('../layouts/DefaultLayout.jsx');
-var Searchbox = require('../components/Searchbox.jsx');
+var SearchBox = require('../components/SearchBox.jsx');
+var Map = require('../components/Map.jsx');
+var BusStops = require('../components/BusStops.jsx');
 
 var HomePage = React.createClass({
   getDefaultProps() {
@@ -20,15 +22,15 @@ var HomePage = React.createClass({
       <div className="text-center">
         <div className="row">
           <div class="col-md-6 col-md-offset-3">
-            <Searchbox />
+            <SearchBox />
           </div>
         </div>
         <div className="row">
           <div className="col-xs-8 col-sm-6">
-            Nearby bus stops info
+            <BusStops/>
           </div>
           <div className="col-xs-4 col-sm-6">
-            Google map with pointers
+            <Map/>
           </div>
         </div>
       </div>

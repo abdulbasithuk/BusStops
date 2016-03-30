@@ -6,14 +6,14 @@
 
 var React = require('react');
 
-var SearchBox = React.createClass({
+var Map = React.createClass({
   render() {
     return (
-      <div>
-        <input type="text"/>
+      <div className="mod-map-container">
+        Google map with pointers
       </div>
     );
   }
 });
 
-module.exports = SearchBox;
+module.exports = Map;
