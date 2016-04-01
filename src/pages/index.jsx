@@ -19,7 +19,7 @@ var HomePage = React.createClass({
   },
   render() {
     return (
-      <div className="text-center">
+      <div className="container text-center">
         <div className="row">
           <div class="col-md-6 col-md-offset-3">
             <SearchBox />

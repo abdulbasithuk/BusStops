@@ -3,7 +3,6 @@
  */
 
 'use strict';
-
 var React = require('react');
 
 var BusStops = React.createClass({

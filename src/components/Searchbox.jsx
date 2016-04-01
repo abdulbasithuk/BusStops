@@ -9,7 +9,7 @@ var React = require('react');
 var SearchBox = React.createClass({
   render() {
     return (
-      <div>
+      <div className="mod-search-box-container">
         <input type="text"/>
       </div>
     );
