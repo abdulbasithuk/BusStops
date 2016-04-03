@@ -9,8 +9,11 @@ var React = require('react');
 var SearchBox = React.createClass({
   render() {
     return (
-      <div className="mod-search-box-container">
-        <input type="text"/>
+      <div className="com-search-box-container">
+        <label for="search-input">
+          <i className="fa fa-search"></i>
+        </label>
+        <input className="cd-input-text" id="search-input" type="text" placeholder="Enter Location"/>
       </div>
     );
   }
