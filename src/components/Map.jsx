@@ -9,8 +9,8 @@ var React = require('react');
 var Map = React.createClass({
   render() {
     return (
-      <div className="mod-map-container">
-        Google map with pointers
+      <div className="com-map-container">
+        <div className="cd-placeholder"></div>
       </div>
     );
   }
