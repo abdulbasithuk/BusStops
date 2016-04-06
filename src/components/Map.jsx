@@ -5,6 +5,7 @@
 'use strict';
 
 var React = require('react');
+var AppStore = require('../stores/AppStore.js');
 
 var Map = React.createClass({
   render() {
