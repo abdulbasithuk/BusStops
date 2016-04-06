@@ -5,7 +5,6 @@
 'use strict';
 
 var React = require('react');
-var Link = require('../components/Link.jsx');
 var Navbar = require('../components/Navbar.jsx');
 
 var DefaultLayout = React.createClass({
