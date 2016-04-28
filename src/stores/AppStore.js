@@ -2,7 +2,7 @@
  * Created by abdul on 06/04/2016.
  */
 var AppDispatcher = require('../AppDispatcher.js');
-var Constants = require('../constants/ActionTypes.js');
+//var Constants = require('../constants/ActionTypes.js');
 var Assign = require('object-assign');
 var EventEmitter = require('events').EventEmitter;
 
