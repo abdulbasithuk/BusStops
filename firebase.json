@@ -1,0 +1,9 @@
+{
+  "firebase": "find-my-bus-stop",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
